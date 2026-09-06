@@ -1,6 +1,6 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-09-06 13:45 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `57.93 ms`
+**Last Sync:** `2026-09-06 13:54 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `20.15 ms`
 ---
 ## 🌌 Cosmic Observation: Pluto in Enhanced Color
 *Catalog Date: 2026-09-06* | *Credits: NASA / Public Domain*
@@ -17,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |  38.85 ms | ██░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |  20.19 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          | 105.09 ms | ███████░░░ | ONLINE
-GitHub Core            | github.com       |  92.48 ms | ██████░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  33.04 ms | ██░░░░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   2.31 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   1.18 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   1.28 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |  10.37 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  85.62 ms | █████░░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 57.93 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 20.15 ms
 ```
 
 ---
