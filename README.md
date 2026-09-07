@@ -1,15 +1,15 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-09-06 13:54 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `20.15 ms`
+**Last Sync:** `2026-09-07 10:51 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `11.32 ms`
 ---
-## 🌌 Cosmic Observation: Pluto in Enhanced Color
-*Catalog Date: 2026-09-06* | *Credits: NASA / Public Domain*
+## 🌌 Cosmic Observation: Cosmic Observation Offline
+*Catalog Date: 2026-09-07* | *Credits: Deep Space Archive*
 
 <div align="center">
-  <img src="https://apod.nasa.gov/apod/image/2609/PlutoEnhancedHiRes_NewHorizons_5000.jpg" width="100%" alt="Pluto in Enhanced Color" style="border-radius: 8px;" />
+  <img src="https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=1200" width="100%" alt="Cosmic Observation Offline" style="border-radius: 8px;" />
 </div>
 
-> Pluto is more colorful than we can see. Color data and high-resolution images of our Solar System's most famous dwarf planet, taken by the robotic New Horizons spacecraft during its flyby in 2015 July, have been digitally combined to give an enhanced-color view of this ancient world sporting an unexpectedly young surface. The featured enhanced color image is not only esthetically pretty but scientifically useful, making surface regions of differing chemical composition visually distinct. For example, the light-colored heart-shaped Tombaugh Regio on the lower right is clearly shown here to be divisible into two regions that are geologically different, with the leftmost lobe, Sputnik Planitia, also appearing unusually smooth. After Pluto, New Horizons continued on, shooting  past asteroid Arrokoth in 2019 with enough speed to escape our Solar System completely.
+> NASA APOD API was temporarily unavailable during probe execution.
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -17,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |   2.31 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |   1.18 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |   1.28 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |  10.37 ms | █░░░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  85.62 ms | █████░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   1.75 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   1.50 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   7.86 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |  18.60 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  26.87 ms | █░░░░░░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 20.15 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 11.32 ms
 ```
 
 ---
