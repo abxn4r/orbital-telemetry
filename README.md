@@ -1,13 +1,15 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-09-09 10:13 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `39.42 ms`
+**Last Sync:** `2026-09-10 10:08 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `14.33 ms`
 ---
-## 🌌 Cosmic Observation: Witness XZ Andromedae Wink
-*Catalog Date: 2026-09-09* | *Credits: NASA / Public Domain*
+## 🌌 Cosmic Observation: LDN 1295: The Giraffe Nebula
+*Catalog Date: 2026-09-10* | *Credits: Alessandro Merga  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)*
 
-[▶️ Watch Cosmic Video](https://apod.nasa.gov/apod/image/2609/xz_and.mp4)
+<div align="center">
+  <img src="https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg" width="100%" alt="LDN 1295: The Giraffe Nebula" style="border-radius: 8px;" />
+</div>
 
-> Is this star winking at us? The central object in today’s animation is not one but two stars. XZ Andromedae, indicated by the bold lines, is an Algol-type eclipsing binary with a nearly edge-on orbit from Earth’s perspective. The bottom light curve shows the amount of light from the system dim and brighten as the cooler star eclipses its hotter, brighter companion. Analysis of several XZ Andromedae light curves indicates there may be two other stars orbiting the system. This particular light curve was created with Citizen Astronomy, an open-source software for differential photometry. The software takes the difference in brightness between a target and comparison star and traces its behavior over time. This technique reduces most variations from the instrument and Earth’s atmosphere. In addition to eclipsing binaries, this analysis is useful for studying transiting exoplanets, accreting black holes, supernovae, and many more time-varying astronomical phenomena. Astrophotographers: try it out on your own data!
+> What does this image look like to you?   Many see a giraffe facing right, with neck stretched high and long legs mid-stride (but some may see a squirrel instead).   The featured image shows LDN 1295, also called the Giraffe Nebula, in the constellation of the mythical queen of Aethiopia (Cassiopeia).   It is an object in the Lynds Catalogue of Dark Nebulas, compiled in 1962 by American astronomer Beverly Lynds, a pioneer for women in astronomy and astrophysics.   Dark nebulas are interstellar clouds of dust and gas that block the visible light of the stars behind them.   These nebulas are often faint and challenging targets for astrophotographers.   Why do we see animal shapes and faces in nebulas, clouds, and pretty much everywhere?   It is due to pareidolia, our tendency to look for familiar patterns.   Pareidolia may provide animals with an evolutionary advantage, for example in identifying (and avoiding) predators.     APOD's main NASA site is moving : From apod.nasa.gov to science.nasa.gov/apod
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -15,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |   5.95 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |   9.79 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |  15.31 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |  37.89 ms | ██░░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   | 128.18 ms | ████████░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   2.59 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   1.64 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   1.59 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |  22.71 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  43.14 ms | ██░░░░░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 39.42 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 14.33 ms
 ```
 
 ---

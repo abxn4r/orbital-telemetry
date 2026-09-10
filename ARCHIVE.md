@@ -26,3 +26,8 @@ Automated chronological record of daily deep-space captures and network telemetr
 - **Cosmic Target:** Witness XZ Andromedae Wink
 - **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/xz_and.mp4)
 - **Probe Status:** Normal (5/5 online)
+
+### 🛰️ Telemetry Log — 2026-09-10
+- **Cosmic Target:** LDN 1295: The Giraffe Nebula
+- **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe_1024.jpg)
+- **Probe Status:** Normal (5/5 online)
