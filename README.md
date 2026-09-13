@@ -1,15 +1,13 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-09-12 09:40 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `30.33 ms`
+**Last Sync:** `2026-09-13 10:42 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `9.82 ms`
 ---
-## 🌌 Cosmic Observation: Apollo 11: Catching Some Sun
-*Catalog Date: 2026-09-12* | *Credits: NASA / Public Domain*
+## 🌌 Cosmic Observation: Comet NEOWISE Rising over the Adriatic Sea
+*Catalog Date: 2026-09-13* | *Credits: Paolo Girotti*
 
-<div align="center">
-  <img src="https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg" width="100%" alt="Apollo 11: Catching Some Sun" style="border-radius: 8px;" />
-</div>
+[▶️ Watch Cosmic Video](https://apod.nasa.gov/apod/image/2609/NoctilucentNeowise_Girotti.mp4)
 
-> Bright sunlight glints as long dark shadows mark this image of the surface of the Moon. It was taken on July 20, 1969, by Apollo 11 astronaut Neil Armstrong, the first to walk on the lunar surface. Pictured is the mission's lunar module, the Eagle, and spacesuited lunar module pilot Buzz Aldrin. Aldrin is unfurling a long sheet of foil also known as the Solar Wind Composition Experiment. Exposed facing the Sun, the foil trapped particles streaming outward in the solar wind, catching a sample of material from the Sun itself. Along with 22 kilograms of moon rocks and lunar soil samples, the solar wind collector was returned for analysis in earthbound laboratories.  APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
+> This sight was worth getting out of bed early.  Just over four years ago, Comet C/2020 F3 (NEOWISE) rose before dawn to the delight of northern sky enthusiasts awake that early. Up before sunrise on July 8th, the featured photographer was able to capture in dramatic fashion one of the few comets visible to the unaided eye this century, an inner-Solar System intruder that has become known as the Great Comet of 2020.  The resulting video detailed Comet NEOWISE from Italy rising over the Adriatic Sea. The featured time-lapse video combines over 240 images taken over 30 minutes.  The comet was seen rising through a foreground of bright and undulating noctilucent clouds, and before a background of distant stars.  Comet NEOWISE remained unexpectedly bright for over a month, with its ion and dust tails found to emanate from a nucleus spanning about five kilometers across.   APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -17,13 +15,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |   8.68 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |   7.32 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |  10.74 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |  58.02 ms | ███░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  66.90 ms | ████░░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   2.05 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   1.83 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   1.66 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |   4.80 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  38.74 ms | ██░░░░░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 30.33 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 9.82 ms
 ```
 
 ---
