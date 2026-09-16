@@ -1,15 +1,15 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-09-15 10:33 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `28.08 ms`
+**Last Sync:** `2026-09-16 10:22 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `10.83 ms`
 ---
-## 🌌 Cosmic Observation: A Daytime Eclipse: Moon Occults Venus
-*Catalog Date: 2026-09-15* | *Credits: Arnaud Mariat*
+## 🌌 Cosmic Observation: Webb's View of M64
+*Catalog Date: 2026-09-16* | *Credits: NASA / Public Domain*
 
 <div align="center">
-  <img src="https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_1410.jpg" width="100%" alt="A Daytime Eclipse: Moon Occults Venus" style="border-radius: 8px;" />
+  <img src="https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg" width="100%" alt="Webb's View of M64" style="border-radius: 8px;" />
 </div>
 
-> There was something behind the clouds.  Upon close inspection, it was the Moon, which was hard to see yesterday around noon above the small village of Cessy, France.  But soon, it was not only the Moon. As expected, a bright dot suddenly appeared from behind the Moon -- the planet Venus far in the distance.  Captured in the single featured exposure, both appeared to show a crescent phase.  The Moon's crescent was quite slight -- with only about 10 percent of its face illuminated by the Sun. In contrast, Venus's crescent was more full -- showing about 25 percent illumination. Venus appeared brighter because it is nearer the Sun and because its clouds are more reflective than the dark lunar surface. An occultation of Venus by the Moon is visible to only about 10 percent of the Earth, but in yesterday's event even most of that was experiencing daytime.   APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
+> Sometimes where Hubble finds darkness, Webb sees light. An example is today’s composite images of Messier 64 (M64), a nearby spiral galaxy of many names. The dark band of dust partially blocking its bright core earned it the moniker “the Black Eye Galaxy.” Webb’s Mid-InfraRed Instrument (MIRI) sees that dust, shown in red, as it absorbs and re-emits light from surrounding newborn stars. These young stars are embedded in pink star-forming regions in the secondary Hubble-only image. M64’s inner and outer gas regions counter-rotate, creating regions of increased star formation where the two gas “currents” meet and compress. A merger between M64 and a smaller galaxy was likely the cause of the opposing motion of the outer gas. Spiral galaxies were once thought to have peaceful histories. M64 was key evidence that spiral galaxies, including the Milky Way, can and do experience mergers. Webb’s view of M64 will tell astronomers about the structure, motion, and composition of the galaxy’s dust and add context to the galaxy’s merger history and evolution.   APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -17,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |   8.82 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |   2.71 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |   9.06 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |  59.47 ms | ███░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  60.36 ms | ████░░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   1.81 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   1.40 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   8.62 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |  23.87 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  18.47 ms | █░░░░░░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 28.08 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 10.83 ms
 ```
 
 ---

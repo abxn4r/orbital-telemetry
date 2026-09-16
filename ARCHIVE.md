@@ -56,3 +56,8 @@ Automated chronological record of daily deep-space captures and network telemetr
 - **Cosmic Target:** A Daytime Eclipse: Moon Occults Venus
 - **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_960.jpg)
 - **Probe Status:** Normal (5/5 online)
+
+### 🛰️ Telemetry Log — 2026-09-16
+- **Cosmic Target:** Webb's View of M64
+- **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/M64_Webb_1024.jpg)
+- **Probe Status:** Normal (5/5 online)
