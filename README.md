@@ -1,15 +1,15 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-09-17 10:31 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `22.75 ms`
+**Last Sync:** `2026-09-18 10:08 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `21.49 ms`
 ---
-## 🌌 Cosmic Observation: A Treasure Chest in the Carina Nebula
-*Catalog Date: 2026-09-17* | *Credits: ESA/Webb, NASA & CSA, M. Reiter; Acknowledgement: M. H. Özsaraç  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)*
+## 🌌 Cosmic Observation: Messier 33: The Triangulum Galaxy
+*Catalog Date: 2026-09-18* | *Credits: George Chatzifrantzis*
 
 <div align="center">
-  <img src="https://apod.nasa.gov/apod/image/2609/JWST_Treasure_Chest.jpg" width="100%" alt="A Treasure Chest in the Carina Nebula" style="border-radius: 8px;" />
+  <img src="https://apod.nasa.gov/apod/image/2609/m33m14_rasa3NM.jpg" width="100%" alt="Messier 33: The Triangulum Galaxy" style="border-radius: 8px;" />
 </div>
 
-> This treasure chest is full of stars.   The featured image was obtained with NASA's James Webb Space Telescope and shows a dust pilar in the Carina Nebula inside our Galaxy, roughly 7500 light-years away.   It is formed by interstellar gas and dust, and shaped by powerful stellar winds and radiation form neighboring stars like the nearby Eta Carinae stellar system which is more luminous than 5 million suns.   The star formation inside the pillar is excavating its head, creating the open lid of the chest.     Astronomers estimate that there are about 70 stars in a compact cluster inside the pillar.   This cluster is now thought to be only around 1.3 million years old.   Its bounty of young stars includes a massive star approximately 19 times as massive as the Sun.   More massive stars are rarer, shine brighter and evolve faster than less massive stars.   They are the shiniest jewels in the treasure chest.     APOD's main NASA site is moving : From apod.nasa.gov to science.nasa.gov/apod
+> The small, northern constellation Triangulum harbors this magnificent face-on spiral galaxy, Messier 33. Its popular names include the Pinwheel Galaxy or just the Triangulum Galaxy. M33 is over 50,000 light-years in diameter, third largest in the Local Group of galaxies after the Andromeda Galaxy (M31), and our own Milky Way. About 3 million light-years from the Milky Way, M33 is itself thought to be a satellite of the Andromeda Galaxy and astronomers in these two galaxies would likely have spectacular views of each other's grand spiral star systems. As for the view from the Milky Way, this sharp telescopic image shows off M33's blue star clusters and pinkish star forming regions along the galaxy's loosely wound spiral arms. In fact, the cavernous NGC 604 is the brightest star forming region, seen here at about the 5 o'clock position from the galaxy center. Like M31, M33's population of well-measured variable stars have helped make this nearby spiral a cosmic yardstick for establishing the distance scale of the Universe.  APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -17,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |   6.20 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |  11.76 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |  14.23 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |  27.90 ms | █░░░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  53.68 ms | ███░░░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   1.99 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   2.41 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   1.55 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |   3.96 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  97.53 ms | ██████░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 22.75 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 21.49 ms
 ```
 
 ---
