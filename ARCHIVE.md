@@ -71,3 +71,8 @@ Automated chronological record of daily deep-space captures and network telemetr
 - **Cosmic Target:** Messier 33: The Triangulum Galaxy
 - **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/m33m14_rasa3NM1024.jpg)
 - **Probe Status:** Normal (5/5 online)
+
+### 🛰️ Telemetry Log — 2026-09-19
+- **Cosmic Target:** A Zodiacal Night
+- **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP1024.jpg)
+- **Probe Status:** Normal (5/5 online)
