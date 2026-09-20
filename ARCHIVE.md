@@ -76,3 +76,8 @@ Automated chronological record of daily deep-space captures and network telemetr
 - **Cosmic Target:** A Zodiacal Night
 - **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP1024.jpg)
 - **Probe Status:** Normal (5/5 online)
+
+### 🛰️ Telemetry Log — 2026-09-20
+- **Cosmic Target:** Analemma over the Callanish Stones
+- **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/CallanishAnalemma_Petricca_960.jpg)
+- **Probe Status:** Normal (5/5 online)
