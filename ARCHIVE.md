@@ -81,3 +81,8 @@ Automated chronological record of daily deep-space captures and network telemetr
 - **Cosmic Target:** Analemma over the Callanish Stones
 - **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/CallanishAnalemma_Petricca_960.jpg)
 - **Probe Status:** Normal (5/5 online)
+
+### 🛰️ Telemetry Log — 2026-09-21
+- **Cosmic Target:** Cocoon Nebula Wide Field
+- **Image URL:** [High-Res View](https://apod.nasa.gov/apod/image/2609/Cocoon_Czerski_1080.jpg)
+- **Probe Status:** Normal (5/5 online)
