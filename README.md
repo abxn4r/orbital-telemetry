@@ -1,15 +1,15 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-09-25 10:40 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `27.47 ms`
+**Last Sync:** `2026-09-26 10:24 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `77.56 ms`
 ---
-## 🌌 Cosmic Observation: Globular Cluster Omega Centauri
-*Catalog Date: 2026-09-25* | *Credits: Javier O. Cadenas Parra*
+## 🌌 Cosmic Observation: Mirrored Meteor and Milky Way
+*Catalog Date: 2026-09-26* | *Credits: Jeff Dai*
 
 <div align="center">
-  <img src="https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra.jpg" width="100%" alt="Globular Cluster Omega Centauri" style="border-radius: 8px;" />
+  <img src="https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai.jpg" width="100%" alt="Mirrored Meteor and Milky Way" style="border-radius: 8px;" />
 </div>
 
-> Globular star cluster Omega Centauri packs about 10 million stars much older than the Sun into a volume some 150 light-years in diameter. Also known as NGC 5139, at a distance of 15,000 light-years it's the largest and brightest of 200 or so known globular clusters that roam the halo of our Milky Way galaxy. Though most star clusters consist of stars with the same age and composition, the enigmatic Omega Cen exhibits the presence of different stellar populations with a spread of ages and chemical abundances. In fact, Omega Cen may be the remnant core of a small galaxy merging with the Milky Way. With a yellowish hue, Omega Centauri's red giant stars are easy to pick out in this sharp telescopic view.  A two-decade-long exploration of the dense star cluster with the Hubble Space Telescope has revealed evidence for a massive black hole near the center of Omega Centauri.  APOD's email for image submissions has changed. Please see: APOD Submissions. APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
+> On August 15, this perseid meteor streaked through night skies over the Observatorio del Roque de los Muchachos at La Palma, Canary Islands, Spain. The bright and colorful meteor trail was captured next to the central Milky Way, whose dark interstellar dust clouds and luminous starlight reach above the horizon. In the foreground of this tantalizing celestial scene is the 23 meter diameter mirror of the prototype Large-Sized Telescope (LST-1). LST-1 is the first telescope constructed at the northern hemisphere site of the innovative Cherenkov Telescope Array Observatory. With 198 hexagonal mirror segments and a large, high-efficiency, pixelized camera, LST-1 is designed to detect extremely brief, atmospheric visible light flashes. Lasting about a billionth of a second, the visible light flashes are triggered by energetic gamma-rays from cosmic sources such as distant active galaxies and gamma-ray bursts. Of course, on that night some individual mirror segments of LST-1 also reflected the atmospheric flash of the bright perseid meteor.  APOD's email for image submissions has changed. Please see: APOD Submissions. APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -17,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |  12.81 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |  11.78 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |  11.64 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |  30.46 ms | ██░░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  70.65 ms | ████░░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   1.80 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   1.92 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   1.64 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |  17.90 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   | 364.56 ms | ██████████ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 27.47 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 77.56 ms
 ```
 
 ---
