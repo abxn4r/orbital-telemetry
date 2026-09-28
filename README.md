@@ -1,15 +1,15 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-09-27 10:55 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `31.55 ms`
+**Last Sync:** `2026-09-28 12:09 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `36.02 ms`
 ---
-## 🌌 Cosmic Observation: Andromeda before Photoshop
-*Catalog Date: 2026-09-27* | *Credits: NASA / Public Domain*
+## 🌌 Cosmic Observation: Cosmic Latte: The Average Color of the Universe
+*Catalog Date: 2026-09-28* | *Credits: NASA / Public Domain*
 
 <div align="center">
-  <img src="https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_4298.jpg" width="100%" alt="Andromeda before Photoshop" style="border-radius: 8px;" />
+  <img src="https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960.jpg" width="100%" alt="Cosmic Latte: The Average Color of the Universe" style="border-radius: 8px;" />
 </div>
 
-> What does the Andromeda galaxy really look like? The featured image shows how our Milky Way Galaxy's closest major galactic neighbor really appears in a long exposure through Earth's busy skies and with a digital camera that introduces normal imperfections.  The picture is a stack of 223 images, each a 300 second exposure, taken from a garden observatory in Portugal during 2019.  Obvious image deficiencies include bright parallel airplane trails, long and continuous satellite trails, short cosmic ray streaks, and bad pixels.  These imperfections were actually not removed with Photoshop specifically, but rather greatly reduced with a series of computer software packages that included Astro Pixel Processor, DeepSkyStacker, and PixInsight.  All of this work was done not to deceive you with a digital fantasy that has little to do with the real likeness of the Andromeda galaxy (M31), but to minimize Earthly artifacts that have nothing to do with the distant galaxy and so better recreate what M31 really does look like.   APOD's email for image submissions has changed. Please see: APOD Submissions APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
+> What color is the universe?  More precisely, if the entire sky were smeared out, what color would the final mix be?  This whimsical question came up when trying to determine what stars are commonplace in nearby galaxies. The answer, depicted here, is a conditionally perceived shade of beige. In computer parlance: #FFF8E7.  To determine this, astronomers computationally averaged the light emitted by one of the larger samples of galaxies analyzed: the 200,000 galaxies of the 2dF Galaxy Redshift Survey.  The resulting cosmic spectrum has some emission in all parts of the electromagnetic spectrum, but a single perceived composite color.  This color has become much less blue over the past 10 billion years, indicating that redder stars are becoming more prevalent.  In a contest to better name the color, notable entries included skyvory, univeige, and the winner: cosmic latte.   APOD's email for image submissions has changed. Please see: APOD Submissions  Tomorrow: APOD's main NASA site is moving: From apod.nasa.gov to science.nasa.gov/apod
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -17,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |   2.71 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |   2.09 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |   1.78 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |   5.38 ms | █░░░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   | 145.81 ms | █████████░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |   2.68 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   2.28 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   7.67 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |   4.53 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   | 162.93 ms | ██████████ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 31.55 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 36.02 ms
 ```
 
 ---
