@@ -1,15 +1,15 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-11-25 16:18 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `19.95 ms`
+**Last Sync:** `2026-11-26 15:53 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `8.8 ms`
 ---
-## 🌌 Cosmic Observation: NASA Science
-*Catalog Date: 2026-11-25* | *Credits: NASA / Public Domain*
+## 🌌 Cosmic Observation: Cosmic Observation Offline
+*Catalog Date: 2026-11-26* | *Credits: Deep Space Archive*
 
 <div align="center">
-  <img src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" width="100%" alt="NASA Science" style="border-radius: 8px;" />
+  <img src="https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=1200" width="100%" alt="Cosmic Observation Offline" style="border-radius: 8px;" />
 </div>
 
-> To view this video please enable JavaScript, and consider upgrading to a web browser that 					supports HTML5 vide
+> NASA APOD API was temporarily unavailable during probe execution.
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -17,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |   2.15 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |   1.73 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |   1.34 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |   5.72 ms | █░░░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  88.80 ms | █████░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |  11.19 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   8.91 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   5.44 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |   8.46 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   |  10.00 ms | █░░░░░░░░░ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 19.95 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 8.8 ms
 ```
 
 ---
