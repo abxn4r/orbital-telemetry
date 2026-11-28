@@ -1,15 +1,15 @@
 # 🛰️ Orbital Telemetry & Deep Space Canary
 > Autonomous daily probe archiving NASA cosmic imagery and global network infrastructure telemetry.
-**Last Sync:** `2026-11-27 15:42 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `19.96 ms`
+**Last Sync:** `2026-11-28 14:38 UTC` • **Status:** `OPERATIONAL` • **Average Latency:** `46.76 ms`
 ---
-## 🌌 Cosmic Observation: NASA Science
-*Catalog Date: 2026-11-27* | *Credits: NASA / Public Domain*
+## 🌌 Cosmic Observation: Cosmic Observation Offline
+*Catalog Date: 2026-11-28* | *Credits: Deep Space Archive*
 
 <div align="center">
-  <img src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" width="100%" alt="NASA Science" style="border-radius: 8px;" />
+  <img src="https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=1200" width="100%" alt="Cosmic Observation Offline" style="border-radius: 8px;" />
 </div>
 
-> On November 24, all denizens of our fair planet could watch the Moon rise opposite the setting Sun. Easy to spot in twilight skies above fields, fences, backyards, and even stone walls, the Moon was big and bright, and at its full phase. Known to some as a Beaver Moon, November's Full Moon was also near perigee, the closest point in its elliptical orbit around planet Earth. That made it one of the biggest and brightest Full Moons, also known as a supermoon. In fact, November's Full Moon was the first in a series of four consecutive Full Moons near perigee. So your next chance to watch a supermoon rise will be when the Cold Moon rises on December 23.Tomorrow's picture: remember where you parked
+> NASA APOD API was temporarily unavailable during probe execution.
 
 ---
 ## 📡 Global Backbone Latency Canary
@@ -17,13 +17,13 @@
 ```text
 ENDPOINT TARGET        | HOST             | LATENCY    | TELEMETRY  | STATUS
 ───────────────────────────────────────────────────────────────────────────
-Cloudflare DNS         | 1.1.1.1          |   5.66 ms | █░░░░░░░░░ | ONLINE
-Google DNS             | 8.8.8.8          |   8.81 ms | █░░░░░░░░░ | ONLINE
-Quad9 DNS              | 9.9.9.9          |   5.49 ms | █░░░░░░░░░ | ONLINE
-GitHub Core            | github.com       |   8.37 ms | █░░░░░░░░░ | ONLINE
-AWS Cloud              | aws.amazon.com   |  71.46 ms | ████░░░░░░ | ONLINE
+Cloudflare DNS         | 1.1.1.1          |  14.00 ms | █░░░░░░░░░ | ONLINE
+Google DNS             | 8.8.8.8          |   9.65 ms | █░░░░░░░░░ | ONLINE
+Quad9 DNS              | 9.9.9.9          |   7.20 ms | █░░░░░░░░░ | ONLINE
+GitHub Core            | github.com       |  24.32 ms | █░░░░░░░░░ | ONLINE
+AWS Cloud              | aws.amazon.com   | 178.61 ms | ██████████ | ONLINE
 ───────────────────────────────────────────────────────────────────────────
-Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 19.96 ms
+Probe Execution: GitHub Actions Runner (Ubuntu) • Average RTT: 46.76 ms
 ```
 
 ---
